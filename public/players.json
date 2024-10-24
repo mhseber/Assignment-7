@@ -3,34 +3,34 @@
         "player_id": 1,
         "player_name": "Aiden Clarke",
         "player_country": "Australia",
-        "player_img": "https://example.com/images/aiden_clarke.jpg",
+        "player_img": "https://static-files.cricket-australia.pulselive.com/headshots/288/722-camedia.png",
         "player_role": "Batsman",
         "player_batting_bowling_type": "Right-hand bat",
         "player_bidding_price": "$1.2M"
     },
     {
         "player_id": 2,
-        "player_name": "Kumar Patel",
-        "player_country": "India",
-        "player_img": "https://example.com/images/kumar_patel.jpg",
-        "player_role": "All-rounder",
-        "player_batting_bowling_type": "Left-hand bat, Right-arm offbreak",
+        "player_name": "Tanjim Sakib",
+        "player_country": "Bangladesh",
+        "player_img": "https://hamariweb.com/profiles/images/profile/3317-209-13781.jpg",
+        "player_role": "Bowler",
+        "player_batting_bowling_type": "Left-hand bat",
         "player_bidding_price": "$950K"
     },
     {
         "player_id": 3,
-        "player_name": "Michael O'Reilly",
-        "player_country": "England",
-        "player_img": "https://example.com/images/michael_oreilly.jpg",
-        "player_role": "Bowler",
-        "player_batting_bowling_type": "Right-hand bat, Right-arm fast",
+        "player_name": "Babar Azam ",
+        "player_country": "Pakistan",
+        "player_img": "https://images-cricketcom.imgix.net/players/59429_headshot_safari.png?auto=format,compress",
+        "player_role": "Batsman",
+        "player_batting_bowling_type": "Right-hand bat",
         "player_bidding_price": "$750K"
     },
     {
         "player_id": 4,
         "player_name": "Carlos Mendes",
         "player_country": "South Africa",
-        "player_img": "https://example.com/images/carlos_mendes.jpg",
+        "player_img": "https://www.footballdatabase.eu/images/photos/players/a_362/362148.jpg",
         "player_role": "Wicketkeeper",
         "player_batting_bowling_type": "Right-hand bat",
         "player_bidding_price": "$1.1M"
@@ -39,25 +39,25 @@
         "player_id": 5,
         "player_name": "Javed Khan",
         "player_country": "Pakistan",
-        "player_img": "https://example.com/images/javed_khan.jpg",
+        "player_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhzHsrWnbiJ1UXQCFpbMnnAvvxpCbadbKTCJXVDx0diV7zHXSX_nrYCGB6B32F4IFP-4&usqp=CAU",
         "player_role": "Bowler",
-        "player_batting_bowling_type": "Left-hand bat, Left-arm fast",
+        "player_batting_bowling_type": "Left-hand bat",
         "player_bidding_price": "$800K"
     },
     {
         "player_id": 6,
-        "player_name": "David Harrison",
+        "player_name": "M Riad",
         "player_country": "New Zealand",
-        "player_img": "https://example.com/images/david_harrison.jpg",
+        "player_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS2W0bRFRKXqtHINWYoFSge0n5M1uL359IIg&s",
         "player_role": "All-rounder",
-        "player_batting_bowling_type": "Right-hand bat, Right-arm legbreak",
+        "player_batting_bowling_type": "Right-hand bat",
         "player_bidding_price": "$1.5M"
     },
     {
         "player_id": 7,
-        "player_name": "Suresh Bhattacharya",
+        "player_name": "Kholi",
         "player_country": "India",
-        "player_img": "https://example.com/images/suresh_bhattacharya.jpg",
+        "player_img": "https://hindustantimes.com/static-content/1y/cricket-logos/players/virat-kohli.png",
         "player_role": "Batsman",
         "player_batting_bowling_type": "Right-hand bat",
         "player_bidding_price": "$1.3M"
@@ -66,27 +66,18 @@
         "player_id": 8,
         "player_name": "Henry Muller",
         "player_country": "West Indies",
-        "player_img": "https://example.com/images/henry_muller.jpg",
+        "player_img": "https://media.licdn.com/dms/image/C4E12AQE9yVSraDu11w/article-cover_image-shrink_600_2000/0/1570991356941?e=2147483647&v=beta&t=qMvSEb0uIskSWNx-vdY1tfLskfGlkpsZP0QdZSge_aQ",
         "player_role": "Bowler",
-        "player_batting_bowling_type": "Right-hand bat, Right-arm offbreak",
+        "player_batting_bowling_type": "Right-hand bat",
         "player_bidding_price": "$600K"
     },
     {
         "player_id": 9,
         "player_name": "Liam Robertson",
         "player_country": "Australia",
-        "player_img": "https://example.com/images/liam_robertson.jpg",
+        "player_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwwLSWfBkUUOb8MaWOQVbePX2-CnwlesOSA&s",
         "player_role": "Wicketkeeper",
         "player_batting_bowling_type": "Left-hand bat",
         "player_bidding_price": "$1.4M"
-    },
-    {
-        "player_id": 10,
-        "player_name": "Muhammad Faisal",
-        "player_country": "Bangladesh",
-        "player_img": "https://example.com/images/muhammad_faisal.jpg",
-        "player_role": "All-rounder",
-        "player_batting_bowling_type": "Left-hand bat, Left-arm orthodox",
-        "player_bidding_price": "$700K"
     }
 ]

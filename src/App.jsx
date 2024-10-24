@@ -14,8 +14,11 @@ const App = () => {
       <Banner></Banner>
       {/* h1+button */}
       <HButton></HButton>
-      {/* card section */}
-      <Card></Card>
+      <section>
+        {/* card section */}
+        <Card></Card>
+      </section>
+
       {/* Subscribe */}
       <Subscribe></Subscribe>
       {/* footer */}
