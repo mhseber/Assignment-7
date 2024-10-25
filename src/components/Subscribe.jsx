@@ -1,9 +1,9 @@
 
 const Subscribe = () => {
     return (
-        <div className="flex items-center justify-center mt-10">
+        <div className="flex items-center justify-center mt-10 mb-[-200px]">
             <div
-                className="hero   bg-[#1313131A] w-[1100px] h-[300px] rounded-xl"
+                className="hero   bg-white w-[1100px] h-[300px] rounded-xl"
                 style={{
                     backgroundImage: `url(https://i.ibb.co.com/qj8VyvK/bg-shadow.png)`,
                     backgroundSize: 'cover',
