@@ -6,6 +6,8 @@ import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
 import { useState } from 'react';
 import Selected from './components/Selected';
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 
 
 const App = () => {
@@ -18,16 +20,18 @@ const App = () => {
   const handlePlayerSelection = (playerPrice) => {
     if (coin >= playerPrice) {
       setCoin(prevCoin => prevCoin - playerPrice);
-      alert('Player selected successfully')
+      alert('Player Selected Successfully')
     }
     else {
-      alert('Not Enough Coins To Select This Player. ')
+      alert('Not Enough Coins to Select This Players.')
     }
   }
 
 
   return (
     <div className='container mx-auto px-4'>
+      {/* ToastContainer is added here */}
+      {/* <ToastContainer /> */}
       {/* navbar */}
       <Navbar coin={coin}></Navbar>
       {/* banner */}

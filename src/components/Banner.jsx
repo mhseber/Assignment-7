@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const Banner = ({ addCoin }) => {
     return (
@@ -27,6 +27,8 @@ const Banner = ({ addCoin }) => {
     );
 };
 
-
+Banner.propTypes = {
+    addCoin: PropTypes.func.isRequired,
+};
 
 export default Banner;
