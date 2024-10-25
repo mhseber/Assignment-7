@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import PropTypes from 'prop-types';
 
-const Card = () => {
+const Card = ({ onSelectPlayer }) => {
     const [cards, setCards] = useState([])
     useEffect(() => {
         fetch('./players.json')
@@ -35,7 +36,9 @@ const Card = () => {
                             </div>
                             <div className="flex justify-between mt-5">
                                 <h1 className="font-medium text-xl">Price :{card.player_bidding_price}</h1>
-                                <button className="btn ">Choose Player</button>
+                                <button
+                                    onClick={() => onSelectPlayer(card.player_bidding_price)}
+                                    className="btn ">Choose Player</button>
                             </div>
 
                         </div>
@@ -45,6 +48,10 @@ const Card = () => {
 
         </div>
     );
+};
+
+Card.propTypes = {
+    onSelectPlayer: PropTypes.func.isRequired,
 };
 
 export default Card;

@@ -47,10 +47,10 @@
     {
         "player_id": 6,
         "player_name": "M Riad",
-        "player_country": "New Zealand",
+        "player_country": "Bangladesh",
         "player_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS2W0bRFRKXqtHINWYoFSge0n5M1uL359IIg&s",
         "player_role": "All-rounder",
-        "player_batting_bowling_type": "Right-hand bat",
+        "player_batting_bowling_type": "Left-hand bat",
         "player_bidding_price": "$1.5M"
     },
     {

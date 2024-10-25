@@ -1,5 +1,6 @@
+import PropTypes from 'prop-types';
 
-const Navbar = () => {
+const Navbar = ({ coin }) => {
     return (
         <div className="pt-4 p-5">
             <div className="navbar bg-base-100">
@@ -28,11 +29,11 @@ const Navbar = () => {
                             <li><a>Schedules</a></li>
                         </ul>
                     </div>
-                    <img src="/img/logo.png" alt="" />
+                    <img src="/public/img/logo.png" alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex ">
                     <ul className="menu menu-horizontal px-1 text-base font-normal text-[#131313B3]">
-                        <div className="flex ml-[500px]">
+                        <div className="flex ml-[500px] font-bold">
                             <li><a>Home</a></li>
                             <li><a>Fixture</a></li>
                             <li><a>Teams</a></li>
@@ -41,12 +42,17 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="border border-red-100 rounded-md flex w-[100px] h-[52px] p-3 pr-1 text-base font-semibold">
-                        0 Coin <img className="w-[20px] h-[20px] mt-1 ml-1 " src="/public/img/coin.png" alt="" /></a>
+                    <a className="border border-red-100 rounded-md flex w-[200px] h-[52px] pl-10 pt-3  text-base font-semibold">
+                        {coin} Coin <img className="w-[20px] h-[20px] mt-1 ml-1  " src="/public/img/coin.png" alt="" /></a>
+
                 </div>
             </div>
         </div>
     );
+};
+
+Navbar.propTypes = {
+    coin: PropTypes.func.isRequired,
 };
 
 export default Navbar;

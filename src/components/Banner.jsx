@@ -1,5 +1,6 @@
 
-const Banner = () => {
+
+const Banner = ({ addCoin }) => {
     return (
         <div className="flex items-center justify-center">
             <div
@@ -18,12 +19,14 @@ const Banner = () => {
                         <p className="mb-5 text-gray-400">
                             Beyond Boundaries Beyond Limits
                         </p>
-                        <button className="btn btn-outline btn-warning   ">Claim Free Credit</button>
+                        <button onClick={addCoin} className="btn btn-outline btn-warning   ">Claim Free Credit</button>
                     </div>
                 </div>
             </div>
         </div>
     );
 };
+
+
 
 export default Banner;
