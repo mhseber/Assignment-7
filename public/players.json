@@ -14,7 +14,7 @@
         "player_country": "Bangladesh",
         "player_img": "https://hamariweb.com/profiles/images/profile/3317-209-13781.jpg",
         "player_role": "Bowler",
-        "player_batting_bowling_type": "Left-hand bat",
+        "player_batting_bowling_type": "Left-hand bat ",
         "player_bidding_price": "$950K"
     },
     {
@@ -59,7 +59,7 @@
         "player_country": "India",
         "player_img": "https://hindustantimes.com/static-content/1y/cricket-logos/players/virat-kohli.png",
         "player_role": "Batsman",
-        "player_batting_bowling_type": "Right-hand bat",
+        "player_batting_bowling_type": "Left-hand bat",
         "player_bidding_price": "$1.3M"
     },
     {
@@ -77,7 +77,7 @@
         "player_country": "Australia",
         "player_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwwLSWfBkUUOb8MaWOQVbePX2-CnwlesOSA&s",
         "player_role": "Wicketkeeper",
-        "player_batting_bowling_type": "Left-hand bat",
+        "player_batting_bowling_type": "Left-hand bat ",
         "player_bidding_price": "$1.4M"
     }
 ]

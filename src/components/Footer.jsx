@@ -2,7 +2,7 @@ import footerImg from '/img/logo-footer.png'
 
 const Footer = () => {
     return (
-        <div className=" bg-black mb-10   ">
+        <div className=" bg-black    ">
             <footer className=" pt-64 px-0 ">
                 <div className="flex items-center justify-center pb-4 ">
                     <img src={footerImg} alt="" />
