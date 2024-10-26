@@ -1,4 +1,6 @@
 import PropTypes from 'prop-types';
+import logo from '/img/logo.png'
+import coinImg from '/img/coin.png'
 
 const Navbar = ({ coin }) => {
     return (
@@ -29,7 +31,7 @@ const Navbar = ({ coin }) => {
                             <li><a>Schedules</a></li>
                         </ul>
                     </div>
-                    <img src="/public/img/logo.png" alt="" />
+                    <img className='pl-5' src={logo} alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex ">
                     <ul className="menu menu-horizontal px-1 text-base font-normal text-[#131313B3]">
@@ -43,7 +45,7 @@ const Navbar = ({ coin }) => {
                 </div>
                 <div className="navbar-end">
                     <a className="border border-red-100 rounded-md flex w-[200px] h-[52px] pl-10 pt-3  text-base font-semibold">
-                        {coin} Coin <img className="w-[20px] h-[20px] mt-1 ml-1  " src="/public/img/coin.png" alt="" /></a>
+                        {coin} Coin <img className="w-[20px] h-[20px] mt-1 ml-1  " src={coinImg} alt="" /></a>
 
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import bannerImg from '/img/banner-main.png'
 
 const Banner = ({ addCoin }) => {
     return (
@@ -14,7 +15,7 @@ const Banner = ({ addCoin }) => {
 
                 <div className="hero-content text-neutral-content text-center ">
                     <div className="">
-                        <img className="lg:pl-48 pl-20 pb-8 " src="/public/img/banner-main.png" alt="" />
+                        <img className="lg:pl-48 pl-20 pb-8 " src={bannerImg} alt="" />
                         <h1 className="mb-5 text-3xl font-bold ">Assemble Your Ultimate Dream 11 Cricket Team</h1>
                         <p className="mb-5 text-gray-400">
                             Beyond Boundaries Beyond Limits

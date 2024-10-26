@@ -29,7 +29,7 @@ const App = () => {
 
 
   return (
-    <div className='container mx-auto px-4'>
+    <div className=''>
       {/* ToastContainer is added here */}
       {/* <ToastContainer /> */}
       {/* navbar */}
@@ -40,7 +40,7 @@ const App = () => {
       <HButton></HButton>
       {/* Selected section */}
       <Selected></Selected>
-      <section>
+      <section className='container mx-auto px-4'>
         {/* card section */}
         <Card onSelectPlayer={handlePlayerSelection}></Card>
       </section>
